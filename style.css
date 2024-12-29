@@ -1,0 +1,66 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #e9e9e9;
+    padding-top: 100px;
+}
+//pour fixer l'image.............
+
+.container::after{
+    content:"";
+    display: block;
+    clear: both; 
+
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba (0,0,0,3);
+}
+.container h1{
+    margin-bottom: 10px;
+    
+}
+.container p{
+    line-height: 1.8;
+}
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0;
+
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgba(129, 112, 17, 0.705);
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 8px 8px 4px rgba(65, 56, 8, 0.274);
+}
+h2{
+    color: rgb(131, 88, 31);
+    text-align: left;
+}
+h3{
+    color: rgba(199, 117, 10, 0.849);
+    text-align: left;
+}
+.card{
+    width: 800px;
+    padding: 5px;
+    border: 1px solid black;
+}
+p{
+    text-align: left;
+}
+
+#para_1 {
+    font-style: italic;
+    color: rgb(7, 1, 1);
+
+}
